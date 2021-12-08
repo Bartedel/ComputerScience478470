@@ -7,4 +7,4 @@ The code starts with data cleaning, after which the Model Word set is constructe
 Then the binary matrix is hashed to a signature matrix which is used as input in the LSH algorithm which presents candidate pairs.
 Those candidate pairs are then compared using a MSM algorithm. The F1* and F1 are reported. 
 
-The code can be used on the dataset "TVs-all-merged.json" without entering anything else. 
+The code can be used on the dataset "TVs-all-merged.json" without entering anything else except for the brand name list. 
